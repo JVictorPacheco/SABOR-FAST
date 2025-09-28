@@ -1,0 +1,6 @@
+@SaborFast.Api_HostAddress = http://localhost:5261
+
+GET {{SaborFast.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
