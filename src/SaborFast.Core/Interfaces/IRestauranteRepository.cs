@@ -12,9 +12,9 @@ public interface IRestauranteRepository : IRepository<Restaurante>
     /// <summary>
     /// Busca restaurantes por categoria específica.
     /// </summary>
-    // <param name=categoria">Nome da categoria para filtrar</param>
+    // <param name="categoria">Nome da categoria para filtrar</param>
     /// <returns>Lista de restaurantes da categoria especificada</returns>
-    Task<IEnumerable<Restaurante>> GetRestaurantesAsync(string categoria);
+    Task<IEnumerable<Restaurante>> GetByCategoriaAsync(string categoria);
 
 
     /// <summary>
@@ -30,7 +30,7 @@ public interface IRestauranteRepository : IRepository<Restaurante>
     /// </summary>
     // <param name="nome">Nome exato do restaurante</param>
     /// <returns>True se existe, False se não existe</returns>
-    Task<bool> ExisByNomeAsync(string nome);
+    Task<bool> ExistsByNomeAsync(string nome);
 
 
 
