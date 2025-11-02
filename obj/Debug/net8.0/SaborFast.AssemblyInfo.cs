@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaborFast")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be40fea23a12d6601f27336ab10a378a8efb19c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb701033a27d43ec32ac4e1aa0e4466f2b5189e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaborFast")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaborFast")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

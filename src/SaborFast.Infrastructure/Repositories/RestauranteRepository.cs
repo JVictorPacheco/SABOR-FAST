@@ -3,9 +3,7 @@ using SaborFast.Core.Entities;
 using SaborFast.Core.Interfaces;
 using SaborFast.Infrastructure.Data;
 
-
 namespace SaborFast.Infrastructure.Repositories;
-
 
 public class RestauranteRepository : BaseRepository<Restaurante>, IRestauranteRepository
 {
